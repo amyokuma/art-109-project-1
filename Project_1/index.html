@@ -6,11 +6,97 @@
     <title>Project 1</title>
   </head>
   <body>
-    <h1>Hello</h1>
-    <p>My name is Eli and I love coffee!!</p>
-<marquee>This is an narrative archive about universal healthcare, and the time
-  we spend every day for basic health necessities.
-</marquee>
-<img src="assets/pill_bottle.jpg" alt="A bottle of pills filled with money">
+    <header>
+      <marquee behavior="alternate">
+        <h1>
+          This is a narrative archive about universal healthcare, and the time
+          we spend every day for basic health necessities.
+        </h1>
+      </marquee>
+    </header>
+    <hr />
+
+    <main>
+      <section>
+        <table>
+          <tr>
+            <td>
+              <figure>
+                <img
+                  src="assets/cabinet.jpg"
+                  alt="Medicine cabinet filled with medication"
+                  width="300"
+                />
+                <figcaption>Cabinet. Accumulated prescriptions.</figcaption>
+              </figure>
+            </td>
+            <td>
+              <figure>
+                <img
+                  src="assets/pill_bottle.jpg"
+                  alt="A pill bottle filled with money"
+                  width="300"
+                />
+                <figcaption>Medication as currency.</figcaption>
+              </figure>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <details open>
+        <summary>Daily Routine</summary>
+        <pre>
+          <figure>
+                <img
+                  src="assets/pills_on_table-1280.jpg"
+                  alt="Pills laid out on a table"
+                  width="800"
+                  srcset="assets/pills_on_table-640.jpg 640w, 
+                  assets/pills_on_table-1280.jpg 1280w, 
+                  assets/pills_on_table-1920.jpg 1920w"
+                />
+                <figcaption>Repeated every day</figcaption>
+              </figure>
+          <time datetime="2026-02-05T08:01">08:01</time> take medication
+          <time datetime="2026-02-05T08:03">08:03</time> open insurance app
+          <time datetime="2026-02-05T08:21">08:21</time> pending
+        </pre>
+      </details>
+
+      <marquee behavior="scroll" direction="left">Waiting.</marquee>
+      <marquee behavior="scroll" direction="right">Billing.</marquee>
+
+      <hr />
+
+      <figure>
+        <img src="assets/receipt.jpg" alt="Pharmacy receipt" width="300" />
+        <figcaption>Proof</figcaption>
+      </figure>
+
+      <label for="cost">Cost:</label>
+      <meter id="cost" value="8" min="0" max="10">8 out of 10</meter><br />
+
+      <hr />
+
+      <figure>
+        <img
+          src="assets/waiting-room.jpg"
+          alt="Empty waiting room chairs"
+          width="300"
+        />
+        <figcaption>No time given</figcaption>
+      </figure>
+
+      <marquee behavior="scroll">
+        waiting waiting waiting waiting waiting waiting waiting
+      </marquee>
+
+      <hr />
+
+      <p>
+        <small>Archive incomplete. Care ongoing.</small>
+      </p>
+    </main>
   </body>
 </html>
